@@ -1,13 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-   <meta charset="UTF-8" />
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <title>Document</title>
-</head>
-<body>
-   <main>
-      
-   </main>
-</body>
-</html>
+console.log("JavaScript connected");
+const qrcode = document.getElementById("qrcode");
+const message = document.getElementById("message");
+
+
+qrcode.addEventListener("click", function(){
+
+    message.innerHTML = "✅ QR Code clicked! Ready to scan 🚀";
+
+    qrcode.style.transform = "scale(1.05)";
+
+});
+const qrcode = document.getElementById("qrcode");
+const message = document.getElementById("message");
+
+qrcode.addEventListener("click", function(){
+      message.innerHTML
+
+}
+
+)
